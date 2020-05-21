@@ -21,5 +21,3 @@ RUN /usr/local/bin/python -m nltk.downloader stopwords &&\
     /usr/local/bin/python -m nltk.downloader averaged_perceptron_tagger &&\
     /usr/local/bin/python -m spacy download xx &&\
     /usr/local/bin/python -m spacy download en
-
-RUN echo "finished"
